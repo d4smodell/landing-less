@@ -316,3 +316,8 @@ h6 {
   color: #2b2a2c;
   font-weight: 700;
 }
+.reviews__star {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
