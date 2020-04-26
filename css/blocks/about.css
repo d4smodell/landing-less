@@ -1,0 +1,32 @@
+/*Colors*/
+.about {
+  margin-bottom: 140px;
+}
+.inner__about {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about__info {
+  width: 50%;
+}
+.about__subtitle {
+  color: #2b2a2c;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about__title {
+  color: #6a696b;
+  font-size: 92px;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.2;
+  margin-bottom: 20px;
+}
+.about__text {
+  font-size: 12px;
+  line-height: 2.4;
+  color: #6a696b;
+  opacity: 0.9;
+}

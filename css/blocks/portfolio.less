@@ -1,0 +1,57 @@
+@import '../vars.less';
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio__col{
+    flex-basis: 33.33333%;
+    padding: 20px;
+}
+
+.portfolio__img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio__item{
+    box-shadow: 0 0 4px fade(@black, 25%);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow .1s linear;
+    &:hover{
+        cursor: pointer;
+        box-shadow: 2px 2px 9px fade(@black, 50%);
+    }
+}
+
+.portfolio__item--content{
+    margin: 10px 20px;
+}
+
+.portfolio__cat{
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolio__title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.portfolio__date{
+    font-weight: 700;
+}
+
+.title__block{
+    display: flex;
+    justify-content: space-between;
+}

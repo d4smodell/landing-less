@@ -1,0 +1,23 @@
+@import '../vars.less';
+
+.works{
+    padding: 20px 0;
+}
+
+.works__nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.works__nav--link{
+    font-size: 15px;
+    color: fade(@black, 70%);
+    margin-left: 30px;
+    &:hover{
+        text-decoration: underline;
+    }
+    &:first-child{
+        margin-left: 0;
+    }
+}
