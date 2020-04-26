@@ -1,0 +1,19 @@
+/*Colors*/
+.news {
+  margin-top: 14rem;
+}
+.news__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.news__title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #2b2a2c;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.news__text {
+  color: #8d8d8e;
+  font-weight: 300;
+}
