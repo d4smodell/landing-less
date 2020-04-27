@@ -50,3 +50,11 @@
 .footer__nav a:hover:not(.footer__nav--link--btn) {
   text-decoration: underline;
 }
+.social__item {
+  color: #6a696b;
+  transition: opacity linear .1s;
+  font-size: 20px;
+}
+.social__item:hover {
+  opacity: .5;
+}
